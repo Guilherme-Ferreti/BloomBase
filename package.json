@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "format": "prettier --write 'resources/**/*.blade.php'"
     },
     "dependencies": {
         "@tailwindcss/vite": "^4.1.11",
@@ -17,5 +18,11 @@
         "@rollup/rollup-linux-x64-gnu": "4.9.5",
         "@tailwindcss/oxide-linux-x64-gnu": "^4.0.1",
         "lightningcss-linux-x64-gnu": "^1.29.1"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.24.0",
+        "prettier": "^3.9.4",
+        "prettier-plugin-blade": "^3.2.2",
+        "prettier-plugin-tailwindcss": "^0.8.0"
     }
 }
