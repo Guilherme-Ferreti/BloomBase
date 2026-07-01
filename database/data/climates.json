@@ -1,0 +1,8 @@
+[
+    {"name": "Tropical", "slug": "tropical"},
+    {"name": "Temperate", "slug": "temperate"},
+    {"name": "Arid", "slug": "arid"},
+    {"name": "Mediterranean", "slug": "mediterranean"},
+    {"name": "Continental", "slug": "continental"},
+    {"name": "Alpine", "slug": "alpine"}
+]

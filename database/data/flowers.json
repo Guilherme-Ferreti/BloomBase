@@ -1,0 +1,136 @@
+[
+    {
+        "common_name": "Rose",
+        "scientific_name": "Rosa \u00d7 hybrida",
+        "slug": "rose",
+        "family": "rosaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["spring", "summer"],
+        "description": "The rose is a woody perennial flowering plant known for its beauty and fragrance.",
+        "interesting_facts": "Roses have been cultivated for over 5,000 years. There are over 300 species and thousands of cultivars. The oldest fossil rose is 35 million years old.",
+        "care_instructions": "Plant in full sun with well-drained soil. Water deeply once a week. Prune in late winter or early spring. Fertilize regularly during growing season.",
+        "lifespan": "5\u201315 years",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rosa_rubiginosa_1.jpg/800px-Rosa_rubiginosa_1.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_%28flower%29_02.jpg/800px-Rosa_%28flower%29_02.jpg", "alt": "Close-up of a red rose bloom", "attribution": "Wikimedia Commons"},
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rosa_canina_flower_%282%29.jpg/800px-Rosa_canina_flower_%282%29.jpg", "alt": "Wild rose bush in bloom", "attribution": "Wikimedia Commons"}
+        ]
+    },
+    {
+        "common_name": "Sunflower",
+        "scientific_name": "Helianthus annuus",
+        "slug": "sunflower",
+        "family": "asteraceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["summer", "autumn"],
+        "description": "The sunflower is a tall, annual plant with large daisy-like flower heads.",
+        "interesting_facts": "Sunflowers track the sun \u2014 young flower heads face east in the morning and follow the sun west. A single sunflower head can contain up to 2,000 seeds.",
+        "care_instructions": "Plant in full sun after frost danger passes. Space seeds 6 inches apart. Water regularly but avoid overwatering. Support tall varieties with stakes.",
+        "lifespan": "Annual (3\u20136 months)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/800px-Sunflower_sky_backdrop.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Helianthus_annuus_002.JPG/800px-Helianthus_annuus_002.JPG", "alt": "Sunflower field at sunset", "attribution": "Wikimedia Commons"},
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Helianthus_annuus_%28Flower%29.jpg/800px-Helianthus_annuus_%28Flower%29.jpg", "alt": "Close-up of sunflower center", "attribution": "Wikimedia Commons"}
+        ]
+    },
+    {
+        "common_name": "Lavender",
+        "scientific_name": "Lavandula angustifolia",
+        "slug": "lavender",
+        "family": "lamiaceae",
+        "climates": ["mediterranean"],
+        "flowering_seasons": ["summer"],
+        "description": "Lavender is a fragrant, purple-flowered shrub native to the Mediterranean.",
+        "interesting_facts": "The name lavender comes from the Latin \"lavare\" meaning to wash \u2014 Romans used it in baths. Its scent is known for calming and relaxing properties.",
+        "care_instructions": "Plant in well-drained alkaline soil in full sun. Water sparingly once established. Prune after flowering to maintain shape. Tolerates drought well.",
+        "lifespan": "5\u201310 years",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lavender_%28Lavandula%29.jpg/800px-Lavender_%28Lavandula%29.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Lavender_field_%28cropped%29.jpg/800px-Lavender_field_%28cropped%29.jpg", "alt": "Purple lavender field stretching to horizon", "attribution": "Wikimedia Commons"}
+        ]
+    },
+    {
+        "common_name": "Tulip",
+        "scientific_name": "Tulipa \u00d7 hybrida",
+        "slug": "tulip",
+        "family": "liliaceae",
+        "climates": ["temperate", "continental"],
+        "flowering_seasons": ["spring"],
+        "description": "Tulips are spring-blooming perennial bulbs with cup-shaped flowers in a wide range of colours.",
+        "interesting_facts": "Tulips caused the first economic bubble \u2014 \"Tulip Mania\" in the 1630s saw single bulbs sell for more than 10 times a skilled worker's annual income.",
+        "care_instructions": "Plant bulbs in autumn, 4\u20136 inches deep in well-drained soil. Full sun to partial shade. Remove spent flowers but leave foliage to die back naturally.",
+        "lifespan": "Perennial (3\u20137 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Tulip_-_floriade_canberra.jpg/800px-Tulip_-_floriade_canberra.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tulip_field_in_Netherlands.jpg/800px-Tulip_field_in_Netherlands.jpg", "alt": "Multi-colour tulip field in Netherlands", "attribution": "Wikimedia Commons"},
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tulipa_gesneriana_%28single_late_tulip%29.jpg/800px-Tulipa_gesneriana_%28single_late_tulip%29.jpg", "alt": "Single pink tulip bloom close-up", "attribution": "Wikimedia Commons"}
+        ]
+    },
+    {
+        "common_name": "Daisy",
+        "scientific_name": "Bellis perennis",
+        "slug": "daisy",
+        "family": "asteraceae",
+        "climates": ["temperate", "alpine"],
+        "flowering_seasons": ["spring", "summer"],
+        "description": "The common daisy is a cheerful perennial with white petals around a yellow centre.",
+        "interesting_facts": "Daisies are actually two flowers in one \u2014 the white petals are ray florets and the yellow centre is made of disc florets. The name comes from \"day's eye\" because they open at dawn.",
+        "care_instructions": "Grows in most soil types in full sun to partial shade. Water moderately. Deadhead spent flowers to encourage continuous blooming. Divide clumps every 2\u20133 years.",
+        "lifespan": "Perennial (2\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Daisy_%28Bellis_perennis%29_white.jpg/800px-Daisy_%28Bellis_perennis%29_white.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bellis_perennis_%28Common_Daisy%29.jpg/800px-Bellis_perennis_%28Common_Daisy%29.jpg", "alt": "Daisy meadow in full bloom", "attribution": "Wikimedia Commons"}
+        ]
+    },
+    {
+        "common_name": "Orchid",
+        "scientific_name": "Orchidaceae",
+        "slug": "orchid",
+        "family": "orchidaceae",
+        "climates": ["tropical"],
+        "flowering_seasons": ["spring", "summer", "autumn", "winter"],
+        "description": "Orchids are a diverse family of flowering plants known for their intricate and exotic blooms.",
+        "interesting_facts": "Orchids are one of the largest plant families with over 28,000 species. Some orchids can live over 100 years. Vanilla flavour comes from an orchid species.",
+        "care_instructions": "Bright indirect light. Water weekly allowing roots to dry between waterings. Use specialised orchid bark mix. Maintain humidity above 50%. Fertilise weakly weekly.",
+        "lifespan": "10\u201320 years (indefinite in ideal conditions)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Phalaenopsis_%28Moth_Orchid%29.jpg/800px-Phalaenopsis_%28Moth_Orchid%29.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Orchidaceae_%28flower%29.jpg/800px-Orchidaceae_%28flower%29.jpg", "alt": "Purple orchid bloom close-up", "attribution": "Wikimedia Commons"},
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Orchid_in_bloom.jpg/800px-Orchid_in_bloom.jpg", "alt": "White moth orchid in ceramic pot", "attribution": "Wikimedia Commons"}
+        ]
+    },
+    {
+        "common_name": "Cherry Blossom",
+        "scientific_name": "Prunus serrulata",
+        "slug": "cherry-blossom",
+        "family": "rosaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["spring"],
+        "description": "Cherry blossoms are delicate pink flowers that bloom on ornamental cherry trees in early spring.",
+        "interesting_facts": "Cherry blossom season in Japan is celebrated with \"hanami\" \u2014 the tradition of flower viewing. The blossoms only last 1\u20132 weeks, symbolising the fleeting nature of life.",
+        "care_instructions": "Plant in full sun with well-drained loamy soil. Water deeply during dry spells. Prune in late summer to avoid disease. Protect from strong winds.",
+        "lifespan": "15\u201325 years",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cherry_blossom_along_the_Tidal_Basin.jpg/800px-Cherry_blossom_along_the_Tidal_Basin.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sakura_%28Cherry_Blossoms%29.jpg/800px-Sakura_%28Cherry_Blossoms%29.jpg", "alt": "Cherry blossom tree branches over water", "attribution": "Wikimedia Commons"},
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cherry_blossom_tree_full_bloom.jpg/800px-Cherry_blossom_tree_full_bloom.jpg", "alt": "Full cherry blossom tree in bloom", "attribution": "Wikimedia Commons"}
+        ]
+    },
+    {
+        "common_name": "Hydrangea",
+        "scientific_name": "Hydrangea macrophylla",
+        "slug": "hydrangea",
+        "family": "hydrangeaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["summer", "autumn"],
+        "description": "Hydrangeas are deciduous shrubs known for their large, showy flower clusters that change colour based on soil pH.",
+        "interesting_facts": "Hydrangea flower colour is determined by soil pH \u2014 acidic soil produces blue flowers, alkaline soil produces pink. They contain a compound called hydrangin that is toxic if ingested.",
+        "care_instructions": "Plant in morning sun with afternoon shade. Keep soil consistently moist. Prune after flowering. Add aluminium sulphate for blue flowers or lime for pink.",
+        "lifespan": "10\u201320 years",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hydrangea_macrophylla_%28Bigleaf_hydrangea%29.jpg/800px-Hydrangea_macrophylla_%28Bigleaf_hydrangea%29.jpg",
+        "images": [
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Hydrangea_pink_bloom.jpg/800px-Hydrangea_pink_bloom.jpg", "alt": "Pink hydrangea bloom cluster", "attribution": "Wikimedia Commons"},
+            {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Hydrangea_blue_flowers.jpg/800px-Hydrangea_blue_flowers.jpg", "alt": "Blue hydrangea flowers in garden", "attribution": "Wikimedia Commons"}
+        ]
+    }
+]

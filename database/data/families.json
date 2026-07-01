@@ -1,0 +1,8 @@
+[
+    {"name": "Rosaceae", "slug": "rosaceae", "description": "The rose family of flowering plants."},
+    {"name": "Asteraceae", "slug": "asteraceae", "description": "The daisy or sunflower family."},
+    {"name": "Lamiaceae", "slug": "lamiaceae", "description": "The mint or deadnettle family."},
+    {"name": "Liliaceae", "slug": "liliaceae", "description": "The lily family."},
+    {"name": "Orchidaceae", "slug": "orchidaceae", "description": "The orchid family."},
+    {"name": "Hydrangeaceae", "slug": "hydrangeaceae", "description": "The hydrangea family."}
+]
