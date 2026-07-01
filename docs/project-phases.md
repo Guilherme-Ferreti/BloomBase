@@ -24,20 +24,23 @@
 
 ## ⬜ Phase 1: Database Foundation — Models, Migrations, Factories, Seeders
 
+> **UUID Convention:** All models in Phase 1 use UUID primary keys (`$table->uuid('id')->primary()`) instead of auto-increment integers. Models must use the `HasUuids` trait for automatic UUID generation. Foreign key columns use `foreignUuid()` with proper cascade rules.
+
 ### 1.1 Create Family Model + Migration
 
 Table: `families`
 
 | Column | Type | Constraints |
 |---|---|---|
-| `id` | `id()` | Primary key, auto-increment |
+| `id` | `uuid()` | Primary key (auto-generated via `HasUuids`) |
 | `name` | `string(255)` | Required, unique |
 | `slug` | `string(255)` | Required, unique |
 | `description` | `text` | Nullable |
 | `timestamps` | — | `created_at`, `updated_at` |
 
 Model: `App\Models\Family`
-- `$fillable`: `name`, `slug`, `description`
+- Traits: `HasFactory`, `HasUuids`
+- `#[Fillable]`: `name`, `slug`, `description`
 - Relationship: `hasMany(Flower::class)`
 
 **Acceptance tests:**
@@ -52,7 +55,7 @@ Table: `climates`
 
 | Column | Type | Constraints |
 |---|---|---|
-| `id` | `id()` | Primary key |
+| `id` | `uuid()` | Primary key (auto-generated via `HasUuids`) |
 | `name` | `string(255)` | Required, unique |
 | `slug` | `string(255)` | Required, unique |
 | `timestamps` | — | `created_at`, `updated_at` |
@@ -61,13 +64,14 @@ Pivot table: `flower_climate`
 
 | Column | Type | Constraints |
 |---|---|---|
-| `flower_id` | `foreignId()` | FK → `flowers.id`, cascade on delete |
-| `climate_id` | `foreignId()` | FK → `climates.id`, cascade on delete |
+| `flower_id` | `foreignUuid()` | FK → `flowers.id`, cascade on delete |
+| `climate_id` | `foreignUuid()` | FK → `climates.id`, cascade on delete |
 
 → Composite primary key on `(flower_id, climate_id)`
 
 Model: `App\Models\Climate`
-- `$fillable`: `name`, `slug`
+- Traits: `HasFactory`, `HasUuids`
+- `#[Fillable]`: `name`, `slug`
 - Relationship: `belongsToMany(Flower::class)`
 
 **Acceptance tests:**
@@ -81,7 +85,7 @@ Table: `flowering_seasons`
 
 | Column | Type | Constraints |
 |---|---|---|
-| `id` | `id()` | Primary key |
+| `id` | `uuid()` | Primary key (auto-generated via `HasUuids`) |
 | `name` | `string(255)` | Required, unique |
 | `slug` | `string(255)` | Required, unique |
 | `timestamps` | — | `created_at`, `updated_at` |
@@ -90,13 +94,14 @@ Pivot table: `flower_flowering_season`
 
 | Column | Type | Constraints |
 |---|---|---|
-| `flower_id` | `foreignId()` | FK → `flowers.id`, cascade on delete |
-| `flowering_season_id` | `foreignId()` | FK → `flowering_seasons.id`, cascade on delete |
+| `flower_id` | `foreignUuid()` | FK → `flowers.id`, cascade on delete |
+| `flowering_season_id` | `foreignUuid()` | FK → `flowering_seasons.id`, cascade on delete |
 
 → Composite primary key on `(flower_id, flowering_season_id)`
 
 Model: `App\Models\FloweringSeason`
-- `$fillable`: `name`, `slug`
+- Traits: `HasFactory`, `HasUuids`
+- `#[Fillable]`: `name`, `slug`
 - Relationship: `belongsToMany(Flower::class)`
 
 **Acceptance tests:**
@@ -109,7 +114,7 @@ Table: `flowers`
 
 | Column | Type | Constraints |
 |---|---|---|
-| `id` | `id()` | Primary key |
+| `id` | `uuid()` | Primary key (auto-generated via `HasUuids`) |
 | `common_name` | `string(255)` | Required |
 | `scientific_name` | `string(255)` | Required |
 | `slug` | `string(255)` | Required, unique |
@@ -119,7 +124,7 @@ Table: `flowers`
 | `lifespan` | `string(255)` | Nullable |
 | `hero_image` | `string(255)` | Required — URL string |
 | `images` | `json` | Nullable — array of `{url, alt, attribution}` |
-| `family_id` | `foreignId()` | FK → `families.id`, cascade on delete |
+| `family_id` | `foreignUuid()` | FK → `families.id`, cascade on delete |
 | `timestamps` | — | `created_at`, `updated_at` |
 
 Indexes:
@@ -127,8 +132,9 @@ Indexes:
 - `scientific_name` — regular index (for search queries)
 
 Model: `App\Models\Flower`
-- `$fillable`: `common_name`, `scientific_name`, `slug`, `description`, `interesting_facts`, `care_instructions`, `lifespan`, `hero_image`, `images`, `family_id`
-- `$casts`: `images → array`
+- Traits: `HasFactory`, `HasUuids`
+- `#[Fillable]`: `common_name`, `scientific_name`, `slug`, `description`, `interesting_facts`, `care_instructions`, `lifespan`, `hero_image`, `images`, `family_id`
+- `#[Cast]` / `casts()`: `images → array`
 - Relationships:
   - `belongsTo(Family::class)`
   - `belongsToMany(Climate::class)`
