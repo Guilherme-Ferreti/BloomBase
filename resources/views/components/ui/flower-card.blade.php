@@ -27,13 +27,13 @@
         @endif
 
         @if ($flower->relationLoaded('family') && $flower->family)
-            <x-badge
+            <x-ui.badge
                 variant="family"
                 size="xs"
                 class="mt-2"
             >
                 {{ $flower->family->name }}
-            </x-badge>
+            </x-ui.badge>
         @endif
     </div>
 </a>

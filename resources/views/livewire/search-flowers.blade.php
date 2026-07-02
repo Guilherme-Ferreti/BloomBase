@@ -18,7 +18,7 @@
             role="list"
         >
             @foreach ($flowers as $flower)
-                <x-flower-card
+                <x-ui.flower-card
                     :flower="$flower"
                     show-scientific
                     :wire:key="$flower->id"

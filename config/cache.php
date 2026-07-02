@@ -2,6 +2,11 @@
 
 declare(strict_types=1);
 
+use App\Models\Climate;
+use App\Models\Family;
+use App\Models\Flower;
+use App\Models\FloweringSeason;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Str;
 
 return [
@@ -133,6 +138,12 @@ return [
     |
     */
 
-    'serializable_classes' => false,
+    'serializable_classes' => [
+        Collection::class,
+        Climate::class,
+        Family::class,
+        Flower::class,
+        FloweringSeason::class,
+    ],
 
 ];

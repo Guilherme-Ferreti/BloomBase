@@ -1,6 +1,4 @@
-@props([
-    'href' => '#',
-])
+@props(['label', 'href' => '#',])
 
 <a
     href="{{ $href }}"
@@ -11,5 +9,5 @@
         ])
     }}
 >
-    {{ $slot }}
+    {{ $label }}
 </a>

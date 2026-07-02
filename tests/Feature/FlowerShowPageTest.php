@@ -65,7 +65,7 @@ it('shows family name', function () {
     $flower = Flower::where('slug', 'rose')->firstOrFail();
 
     get(route('flowers.show', $flower))
-        ->assertSee('Rosaceae');
+        ->assertSee($flower->family->name);
 });
 
 it('shows gallery images', function () {

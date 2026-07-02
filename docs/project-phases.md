@@ -407,7 +407,7 @@ Route::get('/flowers', FlowerController::class)->name('flowers.index');
 Route::get('/flowers/{flower:slug}', FlowerDetailController::class)->name('flowers.show');
 Route::get('/families/{family:slug}', FamilyController::class)->name('families.show');
 Route::get('/climates/{climate:slug}', ClimateController::class)->name('climates.show');
-Route::get('/seasons/{floweringSeason:slug}', FloweringSeasonController::class)->name('seasons.show');
+Route::get('/seasons/{floweringSeason:slug}', FloweringSeasonController::class)->name('flowering-seasons.show');
 ```
 
 **Acceptance tests:**

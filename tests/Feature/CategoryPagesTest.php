@@ -50,7 +50,7 @@ it('shows the climate name in the header', function () {
 it('loads the season page and shows filtered flowers', function () {
     $season = FloweringSeason::where('slug', 'spring')->firstOrFail();
 
-    get(route('seasons.show', $season))
+    get(route('flowering-seasons.show', $season))
         ->assertOk()
         ->assertSee('Rose')
         ->assertDontSee('Lavender');
@@ -59,7 +59,7 @@ it('loads the season page and shows filtered flowers', function () {
 it('shows the season name in the header', function () {
     $season = FloweringSeason::where('slug', 'spring')->firstOrFail();
 
-    get(route('seasons.show', $season))
+    get(route('flowering-seasons.show', $season))
         ->assertSee('Spring');
 });
 
