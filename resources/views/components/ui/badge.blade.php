@@ -1,7 +1,4 @@
-@props([
-    'variant' => 'family',
-    'size' => 'sm',
-])
+@props(['text', 'variant' => 'family', 'size' => 'sm',])
 
 @php
     $colors = [
@@ -27,5 +24,5 @@
         ])
     }}
 >
-    {{ $slot }}
+    {{ $text }}
 </span>

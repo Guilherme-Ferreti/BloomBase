@@ -234,5 +234,536 @@
                 "attribution": "Wikimedia Commons"
             }
         ]
+    },
+    {
+        "common_name": "Lily",
+        "scientific_name": "Lilium candidum",
+        "slug": "lily",
+        "family": "liliaceae",
+        "climates": [
+            "temperate"
+        ],
+        "flowering_seasons": [
+            "summer"
+        ],
+        "description": "The lily is a tall perennial herb with large, prominent trumpet-shaped flowers and a sweet fragrance.",
+        "interesting_facts": "Lilies have been cultivated for over 3,000 years. In Christian symbolism, the Madonna lily represents purity. Some lily bulbs are edible and were used as food by ancient civilisations.",
+        "care_instructions": "Plant bulbs in well-drained soil in full sun to partial shade. Water regularly during growth. Stake tall varieties. Remove spent flowers but leave stems to die back naturally.",
+        "lifespan": "Perennial (3–10 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/White_lily_flower%2C_Assam.jpg/960px-White_lily_flower%2C_Assam.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lilium_bulbiferum_flower.jpg/960px-Lilium_bulbiferum_flower.jpg",
+                "alt": "Orange Lilium bulbiferum flower in bloom",
+                "attribution": "Wikimedia Commons"
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Lilium_pink_perfection.jpg/960px-Lilium_pink_perfection.jpg",
+                "alt": "Pink trumpet lily blossom",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Daffodil",
+        "scientific_name": "Narcissus pseudonarcissus",
+        "slug": "daffodil",
+        "family": "amaryllidaceae",
+        "climates": [
+            "temperate",
+            "continental"
+        ],
+        "flowering_seasons": [
+            "spring"
+        ],
+        "description": "Daffodils are spring-blooming bulbs with bright yellow trumpet-shaped flowers surrounded by a star-shaped collar of petals.",
+        "interesting_facts": "Daffodils are the national flower of Wales. The name Narcissus comes from the Greek myth of a youth who fell in love with his own reflection. All parts of the plant are toxic due to lycorine.",
+        "care_instructions": "Plant bulbs in autumn, 3–4 inches deep in well-drained soil. Full sun to partial shade. Allow foliage to die back naturally after flowering. Divide clumps every 3–5 years.",
+        "lifespan": "Perennial (5–10 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Daffodil_plant.jpg/960px-Daffodil_plant.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Daffodils_flowering.jpg/960px-Daffodils_flowering.jpg",
+                "alt": "Cluster of yellow daffodils in bloom",
+                "attribution": "Wikimedia Commons"
+            },
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Daffodil.jpg/960px-Daffodil.jpg",
+                "alt": "Single yellow daffodil flower close-up",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Peony",
+        "scientific_name": "Paeonia officinalis",
+        "slug": "peony",
+        "family": "paeoniaceae",
+        "climates": [
+            "temperate",
+            "continental"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer"
+        ],
+        "description": "Peonies are herbaceous perennials with large, showy, often fragrant flowers in shades of pink, red, white, and yellow.",
+        "interesting_facts": "Peonies are known as the 'king of flowers' in China, where they have been cultivated for over 2,000 years. They can live for over 100 years and are often planted as heirloom specimens.",
+        "care_instructions": "Plant in full sun with rich, well-drained soil. Position crowns no more than 2 inches deep. Water deeply during dry spells. Provide support for heavy blooms. Cut back foliage in autumn.",
+        "lifespan": "Perennial (20–100 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Paeonia_officinalis_001.JPG/960px-Paeonia_officinalis_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Paeonia_lactiflora_flower_bouquet.jpg/960px-Paeonia_lactiflora_flower_bouquet.jpg",
+                "alt": "Pink peony flower in full bloom",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Iris",
+        "scientific_name": "Iris versicolor",
+        "slug": "iris",
+        "family": "iridaceae",
+        "climates": [
+            "temperate",
+            "continental"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer"
+        ],
+        "description": "Irises are perennial plants with striking, intricate flowers featuring three upright petals and three drooping sepals.",
+        "interesting_facts": "The iris is named after the Greek goddess of the rainbow. It has been the fleur-de-lis symbol of French royalty for centuries. There are over 300 species in the genus.",
+        "care_instructions": "Plant rhizomes in full sun with well-drained soil. Ensure rhizomes are partially exposed above soil. Water moderately. Divide every 3–4 years after flowering to maintain vigour.",
+        "lifespan": "Perennial (5–20 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Iris_versicolor_3.jpg/960px-Iris_versicolor_3.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Iris_%C3%97_germanica_flower.jpg/960px-Iris_%C3%97_germanica_flower.jpg",
+                "alt": "Purple bearded iris flower",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Chrysanthemum",
+        "scientific_name": "Chrysanthemum morifolium",
+        "slug": "chrysanthemum",
+        "family": "asteraceae",
+        "climates": [
+            "temperate",
+            "continental"
+        ],
+        "flowering_seasons": [
+            "summer",
+            "autumn"
+        ],
+        "description": "Chrysanthemums are flowering perennials known for their dense, showy flower heads in a wide range of colours and forms.",
+        "interesting_facts": "Chrysanthemums are the national flower of Japan and the symbol of the Japanese imperial family. They naturally bloom in autumn, making them the quintessential fall flower.",
+        "care_instructions": "Plant in full sun with rich, well-drained soil. Pinch back stems in spring for bushier growth. Water at base to avoid foliar diseases. Protect from frost. Divide every 2–3 years.",
+        "lifespan": "Perennial (3–5 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Chrysanthemum_flower.jpg/960px-Chrysanthemum_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Chrysanthemum_morifolium_08NOV.jpg/960px-Chrysanthemum_morifolium_08NOV.jpg",
+                "alt": "Purple chrysanthemum bloom close-up",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Marigold",
+        "scientific_name": "Tagetes erecta",
+        "slug": "marigold",
+        "family": "asteraceae",
+        "climates": [
+            "tropical",
+            "temperate"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "description": "Marigolds are cheerful annuals with bright orange, yellow, and red pom-pom flower heads.",
+        "interesting_facts": "Marigolds are known as the 'herb of the sun' and are used in Day of the Dead celebrations in Mexico. Their roots release compounds that repel nematodes in the soil.",
+        "care_instructions": "Plant in full sun after frost danger passes. Water at soil level to prevent powdery mildew. Deadhead spent blooms regularly. Tolerates poor soil but thrives in well-drained conditions.",
+        "lifespan": "Annual (6–12 months)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Marigold_flower.jpg/960px-Marigold_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tagetes_erecta_flower.jpg/960px-Tagetes_erecta_flower.jpg",
+                "alt": "Orange marigold flower head",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Dahlia",
+        "scientific_name": "Dahlia pinnata",
+        "slug": "dahlia",
+        "family": "asteraceae",
+        "climates": [
+            "temperate",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "summer",
+            "autumn"
+        ],
+        "description": "Dahlias are tuberous perennials that produce spectacular geometric flower heads in nearly every colour except blue.",
+        "interesting_facts": "Dahlias were first cultivated by the Aztecs as a food source. The tubers were eaten like potatoes. There are over 50,000 registered dahlia cultivars worldwide.",
+        "care_instructions": "Plant tubers in spring after frost, in full sun with rich well-drained soil. Water deeply 2–3 times per week. Stake tall varieties. Deadhead regularly. Dig up tubers before first frost in cold climates.",
+        "lifespan": "Perennial (tubers last 3–5 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Garden_Dahlia_flower_001.jpg/960px-Garden_Dahlia_flower_001.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dahlia_flower_-_colour.jpg/960px-Dahlia_flower_-_colour.jpg",
+                "alt": "Pink dahlia flower in garden",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Gerbera",
+        "scientific_name": "Gerbera jamesonii",
+        "slug": "gerbera",
+        "family": "asteraceae",
+        "climates": [
+            "tropical",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "description": "Gerberas are striking daisy-like flowers with large, colourful heads on long, sturdy stems.",
+        "interesting_facts": "Gerbera daisies are the fifth most popular cut flower in the world. They are known for their ability to absorb pollutants from the air. Each flower head is actually hundreds of tiny individual flowers.",
+        "care_instructions": "Plant in full sun with well-drained soil. Water at base to prevent crown rot. Deadhead spent blooms. Protect from heavy frost. Divide every 2–3 years.",
+        "lifespan": "Perennial (3–5 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Gerbera_flower.jpg/960px-Gerbera_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gerbera_jamesonii_flower.jpg/960px-Gerbera_jamesonii_flower.jpg",
+                "alt": "Orange gerbera daisy flower",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Zinnia",
+        "scientific_name": "Zinnia elegans",
+        "slug": "zinnia",
+        "family": "asteraceae",
+        "climates": [
+            "tropical",
+            "temperate"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "description": "Zinnias are vibrant annuals with solitary daisy-like flower heads in a rainbow of bright colours.",
+        "interesting_facts": "Zinnias are one of the easiest flowers to grow from seed. They are named after German botanist Johann Gottfried Zinn. The flowers are edible and attract butterflies and hummingbirds.",
+        "care_instructions": "Sow seeds directly in full sun after frost. Water at soil level. Deadhead spent blooms for continuous flowering. Space plants well for good air circulation. Resistant to most pests.",
+        "lifespan": "Annual (6–12 months)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Zinnia_elegans_flower.jpg/960px-Zinnia_elegans_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Zinnia_elegans_with_Bombus_01.JPG/960px-Zinnia_elegans_with_Bombus_01.JPG",
+                "alt": "Red zinnia flower bloom",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Carnation",
+        "scientific_name": "Dianthus caryophyllus",
+        "slug": "carnation",
+        "family": "caryophyllaceae",
+        "climates": [
+            "temperate",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer"
+        ],
+        "description": "Carnations are herbaceous perennials with frilled, multi-petalled flowers that are among the most popular cut flowers worldwide.",
+        "interesting_facts": "Carnations symbolise love and fascination. The pink carnation is the official Mother's Day flower. They are one of the few flowers that can be naturally coloured in shades of green, blue, and purple through dyeing.",
+        "care_instructions": "Plant in full sun with alkaline, well-drained soil. Pinch back young plants for bushier growth. Water moderately. Support tall varieties. Deadhead spent blooms to prolong flowering.",
+        "lifespan": "Perennial (3–5 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Carnation_flower.jpg/960px-Carnation_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Dianthus_caryophyllus_Mondrian.JPG/960px-Dianthus_caryophyllus_Mondrian.JPG",
+                "alt": "Pink carnation flower close-up",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Hibiscus",
+        "scientific_name": "Hibiscus rosa-sinensis",
+        "slug": "hibiscus",
+        "family": "malvaceae",
+        "climates": [
+            "tropical",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "description": "Hibiscus is a tropical shrub with large, showy trumpet-shaped flowers that come in a wide range of vibrant colours.",
+        "interesting_facts": "Hibiscus is the national flower of Malaysia, Haiti, and South Korea. The flowers are used to make a popular herbal tea rich in vitamin C. Each bloom only lasts one day.",
+        "care_instructions": "Plant in full sun with rich, well-drained soil. Water generously during growing season. Prune in early spring to shape. Protect from temperatures below 10°C. Fertilise monthly during bloom.",
+        "lifespan": "Perennial (5–20 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Hibiscus_flower.jpg/960px-Hibiscus_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Hibiscus_rosa-sinensis_flower.jpg/960px-Hibiscus_rosa-sinensis_flower.jpg",
+                "alt": "Red hibiscus flower with prominent stamen",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Poppy",
+        "scientific_name": "Papaver rhoeas",
+        "slug": "poppy",
+        "family": "papaveraceae",
+        "climates": [
+            "temperate",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer"
+        ],
+        "description": "The common poppy is an annual herb with delicate, papery red petals and a distinctive dark centre.",
+        "interesting_facts": "Poppies are emblematic of remembrance for fallen soldiers, inspired by the WWI poem 'In Flanders Fields'. Each poppy flower contains up to 40,000 seeds. The seeds can remain dormant for over 80 years.",
+        "care_instructions": "Sow seeds directly in full sun in spring or autumn. Thrives in poor, well-drained soil. Water sparingly. Self-seeds readily. Deadhead to prevent unwanted spreading.",
+        "lifespan": "Annual (3–6 months)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Poppy_flower.jpg/960px-Poppy_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Papaver_rhoeas_LC0050.jpg/960px-Papaver_rhoeas_LC0050.jpg",
+                "alt": "Red poppy flower in meadow",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Violet",
+        "scientific_name": "Viola odorata",
+        "slug": "violet",
+        "family": "violaceae",
+        "climates": [
+            "temperate",
+            "continental"
+        ],
+        "flowering_seasons": [
+            "spring"
+        ],
+        "description": "Violets are small, delicate perennials with heart-shaped leaves and fragrant purple, blue, or white flowers.",
+        "interesting_facts": "Violets were the favourite flower of Napoleon Bonaparte and were used as a symbol by his supporters. The flowers can be candied and used in desserts. Viola tricolor is the wild pansy.",
+        "care_instructions": "Plant in partial to full shade with moist, well-drained soil. Water regularly. Remove spent flowers. Mulch to retain moisture. Divide clumps in autumn every 2–3 years.",
+        "lifespan": "Perennial (3–5 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Viola_flower.jpg/960px-Viola_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Viola_odorata_20210226.jpg/960px-Viola_odorata_20210226.jpg",
+                "alt": "Purple violet flower close-up",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Petunia",
+        "scientific_name": "Petunia × hybrida",
+        "slug": "petunia",
+        "family": "solanaceae",
+        "climates": [
+            "temperate",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "description": "Petunias are popular annuals with trumpet-shaped flowers that bloom profusely in a wide range of colours and patterns.",
+        "interesting_facts": "Petunias are related to tomatoes, potatoes, and tobacco. They are one of the most popular bedding plants in the world. Some varieties are fragrant at night to attract nocturnal moths.",
+        "care_instructions": "Plant in full sun with well-drained soil. Water regularly, especially in containers. Pinch back stems to encourage bushiness. Fertilise every two weeks. Remove spent flowers for continuous bloom.",
+        "lifespan": "Annual (6–12 months)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Petunia_flower.jpg/960px-Petunia_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Petunia_%C3%97_hybrida_-_Karlsruhe.jpg/960px-Petunia_%C3%97_hybrida_-_Karlsruhe.jpg",
+                "alt": "Purple and white petunia bloom",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Hyacinth",
+        "scientific_name": "Hyacinthus orientalis",
+        "slug": "hyacinth",
+        "family": "asparagaceae",
+        "climates": [
+            "temperate",
+            "continental"
+        ],
+        "flowering_seasons": [
+            "spring"
+        ],
+        "description": "Hyacinths are spring-blooming bulbs that produce dense spikes of highly fragrant bell-shaped flowers.",
+        "interesting_facts": "In Greek myth, hyacinths sprang from the blood of the youth Hyacinthus. Hyacinth bulbs contain oxalic acid and can cause skin irritation. Their intense fragrance can fill an entire room.",
+        "care_instructions": "Plant bulbs in autumn, 4–6 inches deep in well-drained soil. Full sun to partial shade. Water during active growth. After flowering, allow foliage to die back naturally. Bulbs may need replacing after 3–4 years.",
+        "lifespan": "Perennial (3–5 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Hyacinth_flower.jpg/960px-Hyacinth_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Hyacinthus_orientalis_Bl%C3%BCte_01.JPG/960px-Hyacinthus_orientalis_Bl%C3%BCte_01.JPG",
+                "alt": "Pink hyacinth flower spike",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Gardenia",
+        "scientific_name": "Gardenia jasminoides",
+        "slug": "gardenia",
+        "family": "rubiaceae",
+        "climates": [
+            "tropical",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer"
+        ],
+        "description": "Gardenias are evergreen shrubs with creamy-white, waxy flowers that are renowned for their intoxicating fragrance.",
+        "interesting_facts": "Gardenias are named after Dr Alexander Garden, a Scottish naturalist. The flowers are used in perfumery and as a flavouring in tea. They symbolise secret love and joy.",
+        "care_instructions": "Plant in partial shade with acidic, well-drained soil. Keep soil consistently moist. Mist leaves regularly. Fertilise with acid-loving plant food. Prune after flowering.",
+        "lifespan": "Shrub (10–20 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Gardenia_flower.jpg/960px-Gardenia_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Gardenia_jasminoides_flower.jpg/960px-Gardenia_jasminoides_flower.jpg",
+                "alt": "White gardenia flower in bloom",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Azalea",
+        "scientific_name": "Rhododendron simsii",
+        "slug": "azalea",
+        "family": "ericaceae",
+        "climates": [
+            "temperate",
+            "continental"
+        ],
+        "flowering_seasons": [
+            "spring"
+        ],
+        "description": "Azaleas are flowering shrubs that produce masses of bright trumpet-shaped flowers in spring, often covering the entire plant.",
+        "interesting_facts": "Azaleas are part of the Rhododendron genus. Some species are toxic—honey made from azalea nectar can cause 'mad honey' poisoning. They are the national flower of Nepal.",
+        "care_instructions": "Plant in partial shade with acidic, well-drained soil. Keep soil moist with organic mulch. Avoid deep planting. Fertilise after flowering. Prune lightly to shape.",
+        "lifespan": "Shrub (10–40 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Azalea_flower.jpg/960px-Azalea_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Rhododendron_simsii_01.JPG/960px-Rhododendron_simsii_01.JPG",
+                "alt": "Pink azalea flowers in full bloom",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Magnolia",
+        "scientific_name": "Magnolia grandiflora",
+        "slug": "magnolia",
+        "family": "magnoliaceae",
+        "climates": [
+            "temperate",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer"
+        ],
+        "description": "Magnolias are ancient flowering trees or shrubs with large, fragrant cup-shaped flowers in white, pink, or purple.",
+        "interesting_facts": "Magnolies are among the oldest flowering plants, with fossils dating back 95 million years. They evolved before bees and were originally pollinated by beetles. The magnolia is the state flower of Mississippi and Louisiana.",
+        "care_instructions": "Plant in full sun to partial shade with deep, rich, well-drained soil. Water deeply during dry spells. Mulch generously. Prune minimally after flowering. Protect from strong winds.",
+        "lifespan": "Tree (50–100+ years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Magnolia_flower.jpg/960px-Magnolia_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Magnolia_grandiflora_flower.jpg/960px-Magnolia_grandiflora_flower.jpg",
+                "alt": "White magnolia flower on tree",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Frangipani",
+        "scientific_name": "Plumeria rubra",
+        "slug": "frangipani",
+        "family": "apocynaceae",
+        "climates": [
+            "tropical",
+            "mediterranean"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "description": "Frangipani is a tropical tree or shrub with clusters of highly fragrant, five-petalled flowers in shades of pink, white, yellow, and red.",
+        "interesting_facts": "The frangipani is the national flower of Laos and is associated with temples in Bali and Thailand. Despite its tropical appearance, it stores water in its thick succulent branches and tolerates drought well.",
+        "care_instructions": "Plant in full sun with sharp-draining sandy soil. Water sparingly—allow soil to dry between waterings. Fertilise during growing season. Protect from frost. Prune in winter dormancy.",
+        "lifespan": "Tree (30–50 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Frangipani_flower.jpg/960px-Frangipani_flower.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Plumeria_rubra_flower.jpg/960px-Plumeria_rubra_flower.jpg",
+                "alt": "Pink frangipani flower cluster",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Peace Lily",
+        "scientific_name": "Spathiphyllum wallisii",
+        "slug": "peace-lily",
+        "family": "araceae",
+        "climates": [
+            "tropical"
+        ],
+        "flowering_seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+        ],
+        "description": "Peace lilies are popular indoor plants with elegant white spathes (modified leaves) that resemble flags of peace.",
+        "interesting_facts": "Peace lilies are excellent air purifiers, removing VOCs like benzene and formaldehyde. Despite the name, they are not true lilies. The white 'petal' is actually a modified leaf called a spathe.",
+        "care_instructions": "Thrives in low to bright indirect light. Water when soil is dry to the touch. Mist leaves regularly. Fertilise monthly during growing season. Repot when root-bound. Tolerates neglect well.",
+        "lifespan": "Perennial (5–10 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Peace_Lily.JPG/960px-Peace_Lily.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Peace_lily_-_2.jpg/960px-Peace_lily_-_2.jpg",
+                "alt": "Peace lily plant with white spathe",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
     }
 ]

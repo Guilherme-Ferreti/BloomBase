@@ -1,4 +1,4 @@
-<div class="mx-auto max-w-4xl">
+<div class="mx-auto max-w-4xl space-y-8">
     <div class="bg-forest-900/10 aspect-21/9 overflow-hidden rounded-lg">
         <img
             src="{{ $flower->hero_image }}"
@@ -7,32 +7,40 @@
         />
     </div>
 
-    <div class="mt-8">
+    <div>
         <div class="flex flex-wrap items-start justify-between gap-4">
             <div>
                 <h1 class="text-text-primary text-4xl font-bold tracking-tight">{{ $flower->common_name }}</h1>
                 <p class="text-text-muted mt-1 text-xl italic">{{ $flower->scientific_name }}</p>
 
                 <x-ui.badge
+                    :text="$flower->family->name"
                     variant="family"
                     class="mt-2"
-                >
-                    {{ $flower->family->name }}
-                </x-ui.badge>
+                />
             </div>
         </div>
 
         <div class="mt-6 flex flex-wrap gap-3">
             @if ($flower->lifespan)
-                <x-ui.badge variant="neutral"> {{ $flower->lifespan }} </x-ui.badge>
+                <x-ui.badge
+                    :text="$flower->lifespan"
+                    variant="neutral"
+                />
             @endif
 
             @foreach ($flower->climates as $climate)
-                <x-ui.badge variant="climate"> {{ $climate->name }} </x-ui.badge>
+                <x-ui.badge
+                    :text="$climate->name"
+                    variant="climate"
+                />
             @endforeach
 
             @foreach ($flower->floweringSeasons as $season)
-                <x-ui.badge variant="season"> {{ $season->name }} </x-ui.badge>
+                <x-ui.badge
+                    :text="$season->name"
+                    variant="season"
+                />
             @endforeach
         </div>
 
@@ -60,18 +68,20 @@
         @if ($flower->interesting_facts)
             <section class="mt-10">
                 <h2 class="text-text-primary text-xl font-semibold">{{ __('Interesting Facts') }}</h2>
-                <div class="border-border mt-4 rounded-lg border bg-white p-6">
-                    <p class="text-text-muted">{{ $flower->interesting_facts }}</p>
-                </div>
+                <x-ui.text-panel
+                    :text="$flower->interesting_facts"
+                    class="mt-4"
+                />
             </section>
         @endif
 
         @if ($flower->care_instructions)
             <section class="mt-10">
                 <h2 class="text-text-primary text-xl font-semibold">{{ __('Care Instructions') }}</h2>
-                <div class="prose prose-sm text-text-muted mt-4 max-w-none">
-                    <p>{{ $flower->care_instructions }}</p>
-                </div>
+                <x-ui.text-panel
+                    :text="$flower->care_instructions"
+                    class="mt-4"
+                />
             </section>
         @endif
     </div>

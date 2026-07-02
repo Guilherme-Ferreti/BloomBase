@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace App\Livewire;
 
 use App\Models\Flower;
-use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\View\View;
+use Livewire\Attributes\Url;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -14,7 +14,17 @@ final class SearchFlowers extends Component
 {
     use WithPagination;
 
+    /**
+     * @var array<mixed, mixed>
+     */
+    public array $flowers = [];
+
+    #[Url(as: 'q')]
     public string $search = '';
+
+    public int $page = 1;
+
+    public bool $hasMorePages = false;
 
     public ?string $familyId = null;
 
@@ -22,37 +32,39 @@ final class SearchFlowers extends Component
 
     public ?string $seasonId = null;
 
-    /**
-     * @var array<string, array<string, string>>
-     */
-    protected array $queryString = ['search' => ['except' => '', 'as' => 'q']];
-
-    /**
-     * @return LengthAwarePaginator<int, Flower>
-     */
-    public function flowers(): LengthAwarePaginator
+    public function render(): View
     {
-        return Flower::query()
+        return view('livewire.search-flowers');
+    }
+
+    public function mount(): void
+    {
+        $this->loadFlowers();
+    }
+
+    public function updatedSearch(): void
+    {
+        $this->reset('flowers', 'page', 'hasMorePages');
+
+        $this->loadFlowers();
+    }
+
+    public function loadFlowers(): void
+    {
+        $paginator = Flower::query()
             ->with('family')
             ->when($this->familyId, fn ($q) => $q->where('family_id', $this->familyId))
             ->when($this->climateId, fn ($q) => $q->whereRelation('climates', 'id', $this->climateId))
             ->when($this->seasonId, fn ($q) => $q->whereRelation('floweringSeasons', 'id', $this->seasonId))
-            ->where(function ($q) {
-                $q->where('common_name', 'like', '%' . $this->search . '%')
-                    ->orWhere('scientific_name', 'like', '%' . $this->search . '%');
-            })
-            ->paginate(12);
-    }
+            ->when($this->search, fn ($q) => $q->where(fn ($q) => $q->where('common_name', 'like', '%' . $this->search . '%')
+                ->orWhere('scientific_name', 'like', '%' . $this->search . '%')
+            ))
+            ->orderBy('common_name')
+            ->simplePaginate(perPage: 12, page: $this->page);
 
-    public function updatingSearch(): void
-    {
-        $this->resetPage();
-    }
+        $this->flowers = array_merge($this->flowers, $paginator->toArray()['data']);
 
-    public function render(): View
-    {
-        return view('livewire.search-flowers', [
-            'flowers' => $this->flowers(),
-        ]);
+        $this->hasMorePages = $paginator->hasMorePages();
+        $this->page++;
     }
 }

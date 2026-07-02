@@ -4,5 +4,20 @@
     {"name": "Lamiaceae", "slug": "lamiaceae", "description": "The mint or deadnettle family."},
     {"name": "Liliaceae", "slug": "liliaceae", "description": "The lily family."},
     {"name": "Orchidaceae", "slug": "orchidaceae", "description": "The orchid family."},
-    {"name": "Hydrangeaceae", "slug": "hydrangeaceae", "description": "The hydrangea family."}
+    {"name": "Hydrangeaceae", "slug": "hydrangeaceae", "description": "The hydrangea family."},
+    {"name": "Amaryllidaceae", "slug": "amaryllidaceae", "description": "The amaryllis family, including daffodils and snowdrops."},
+    {"name": "Iridaceae", "slug": "iridaceae", "description": "The iris family, including irises and crocuses."},
+    {"name": "Paeoniaceae", "slug": "paeoniaceae", "description": "The peony family."},
+    {"name": "Caryophyllaceae", "slug": "caryophyllaceae", "description": "The carnation or pink family."},
+    {"name": "Malvaceae", "slug": "malvaceae", "description": "The mallow family, including hibiscus."},
+    {"name": "Papaveraceae", "slug": "papaveraceae", "description": "The poppy family."},
+    {"name": "Ranunculaceae", "slug": "ranunculaceae", "description": "The buttercup or crowfoot family."},
+    {"name": "Violaceae", "slug": "violaceae", "description": "The violet family."},
+    {"name": "Solanaceae", "slug": "solanaceae", "description": "The nightshade family, including petunias."},
+    {"name": "Asparagaceae", "slug": "asparagaceae", "description": "The asparagus family, including hyacinths."},
+    {"name": "Rubiaceae", "slug": "rubiaceae", "description": "The coffee or madder family, including gardenias."},
+    {"name": "Ericaceae", "slug": "ericaceae", "description": "The heath family, including azaleas."},
+    {"name": "Magnoliaceae", "slug": "magnoliaceae", "description": "The magnolia family."},
+    {"name": "Apocynaceae", "slug": "apocynaceae", "description": "The dogbane family, including frangipani."},
+    {"name": "Araceae", "slug": "araceae", "description": "The arum family, including peace lilies."}
 ]
