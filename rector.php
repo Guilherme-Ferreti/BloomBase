@@ -41,4 +41,7 @@ return RectorConfig::configure()
         RenamePropertyToMatchTypeRector::class,
         AddArrowFunctionReturnTypeRector::class,
         AddClosureVoidReturnTypeWhereNoReturnRector::class,
+        Rector\Privatization\Rector\Property\PrivatizeFinalClassPropertyRector::class => [
+            __DIR__ . '/app/Livewire',
+        ],
     ]);
