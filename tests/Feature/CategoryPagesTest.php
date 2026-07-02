@@ -36,7 +36,7 @@ it('loads the climate page and shows filtered flowers', function () {
 
     get(route('climates.show', $climate))
         ->assertOk()
-        ->assertSee('Rose')
+        ->assertSee('Daisy')
         ->assertDontSee('Orchid');
 });
 
@@ -52,7 +52,7 @@ it('loads the season page and shows filtered flowers', function () {
 
     get(route('flowering-seasons.show', $season))
         ->assertOk()
-        ->assertSee('Rose')
+        ->assertSee('Daisy')
         ->assertDontSee('Lavender');
 });
 

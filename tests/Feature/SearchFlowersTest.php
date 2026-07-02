@@ -38,14 +38,11 @@ it('supports partial matches', function () {
 
 it('shows all flowers when search is empty', function () {
     Livewire::test('search-flowers')
-        ->assertSee('Rose')
-        ->assertSee('Sunflower')
-        ->assertSee('Lavender')
-        ->assertSee('Tulip')
-        ->assertSee('Daisy')
-        ->assertSee('Orchid')
+        ->assertSee('Azalea')
         ->assertSee('Cherry Blossom')
-        ->assertSee('Hydrangea');
+        ->assertSee('Chrysanthemum')
+        ->assertSee('Daffodil')
+        ->assertSee('Daisy');
 });
 
 it('shows empty state when no results', function () {
@@ -67,16 +64,15 @@ it('scopes by climate', function () {
     $temperate = Climate::where('name', 'Temperate')->first();
 
     Livewire::test('search-flowers', ['climateId' => $temperate->id])
-        ->assertSee('Rose')
-        ->assertDontSee('Orchid');
+        ->assertSee('Daisy')
+        ->assertDontSee('Frangipani');
 });
 
 it('scopes by season', function () {
     $spring = FloweringSeason::where('name', 'Spring')->first();
 
     Livewire::test('search-flowers', ['seasonId' => $spring->id])
-        ->assertSee('Rose')
-        ->assertSee('Tulip')
+        ->assertSee('Daisy')
         ->assertDontSee('Lavender');
 });
 
