@@ -18,3 +18,5 @@
     --color-error: #D62828;
     --color-warning: #E9C46A;
 }
+
+[x-cloak] { display: none !important; }

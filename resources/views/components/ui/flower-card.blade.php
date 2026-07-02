@@ -8,6 +8,7 @@
         $attributes->class([
             'group border-border overflow-hidden rounded-lg border bg-white text-left',
             'transition-shadow hover:shadow-lg',
+            'focus:ring-forest-500/20 focus:ring-2 focus:outline-none',
         ])
     }}
 >

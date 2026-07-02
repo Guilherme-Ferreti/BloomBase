@@ -28,7 +28,7 @@
 
         @livewireStyles
     </head>
-    <body class="bg-cream text-text-primary flex min-h-screen flex-col antialiased">
+    <body class="bg-cream text-text-primary flex min-h-screen flex-col overflow-x-hidden antialiased">
         <x-ui.skip-to-content />
 
         <x-layout.header />

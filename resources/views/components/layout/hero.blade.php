@@ -30,7 +30,7 @@
             />
             <button
                 type="submit"
-                class="bg-forest-700 hover:bg-forest-500 focus:ring-forest-500/20 rounded-lg px-6 py-2.5 text-sm font-medium text-white transition-colors focus:ring-2 focus:outline-none"
+                class="bg-forest-700 hover:bg-forest-500 focus:ring-forest-500/20 min-h-11 rounded-lg px-6 py-2.5 text-sm font-medium text-white transition-colors focus:ring-2 focus:outline-none"
             >
                 {{ __('Search') }}
             </button>
