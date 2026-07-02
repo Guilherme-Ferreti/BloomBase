@@ -1,6 +1,7 @@
 @props(['label', 'href' => '#',])
 
 <a
+    wire:navigate
     href="{{ $href }}"
     {{
         $attributes->class([

@@ -1,6 +1,7 @@
-@props(['flower', 'showScientific' => false,])
+@props(['flower', 'showScientific' => false])
 
 <a
+    wire:navigate
     href="{{ route('flowers.show', $flower) }}"
     role="listitem"
     {{
@@ -10,7 +11,7 @@
         ])
     }}
 >
-    <div class="bg-forest-900/10 aspect-[4/3] overflow-hidden">
+    <div class="bg-forest-900/10 aspect-4/3 overflow-hidden">
         <img
             src="{{ $flower->hero_image }}"
             alt="{{ $flower->common_name }}"
@@ -26,14 +27,12 @@
             <p class="text-text-muted mt-1 text-sm italic">{{ $flower->scientific_name }}</p>
         @endif
 
-        @if ($flower->relationLoaded('family') && $flower->family)
-            <x-ui.badge
-                variant="family"
-                size="xs"
-                class="mt-2"
-            >
-                {{ $flower->family->name }}
-            </x-ui.badge>
-        @endif
+        <x-ui.badge
+            variant="family"
+            size="xs"
+            class="mt-2"
+        >
+            {{ $flower->family->name }}
+        </x-ui.badge>
     </div>
 </a>
