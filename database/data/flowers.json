@@ -756,12 +756,412 @@
         "description": "Peace lilies are popular indoor plants with elegant white spathes (modified leaves) that resemble flags of peace.",
         "interesting_facts": "Peace lilies are excellent air purifiers, removing VOCs like benzene and formaldehyde. Despite the name, they are not true lilies. The white 'petal' is actually a modified leaf called a spathe.",
         "care_instructions": "Thrives in low to bright indirect light. Water when soil is dry to the touch. Mist leaves regularly. Fertilise monthly during growing season. Repot when root-bound. Tolerates neglect well.",
-        "lifespan": "Perennial (5–10 years)",
+        "lifespan": "Perennial (5\u201310 years)",
         "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Peace_Lily.JPG/960px-Peace_Lily.JPG",
         "images": [
             {
                 "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Peace_lily_-_2.jpg/960px-Peace_lily_-_2.jpg",
                 "alt": "Peace lily plant with white spathe",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Snapdragon",
+        "scientific_name": "Antirrhinum majus",
+        "slug": "snapdragon",
+        "family": "plantaginaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["summer"],
+        "description": "Snapdragons are tall, colourful perennials with unique dragon-head-shaped flowers that open and close like a mouth when squeezed.",
+        "interesting_facts": "The name comes from the flower's resemblance to a dragon's mouth. Squeezing the sides causes the 'mouth' to open. Snapdragons are a symbol of grace and strength.",
+        "care_instructions": "Plant in full sun with well-drained soil. Water at base to prevent fungal diseases. Deadhead spent blooms to prolong flowering. Pinch back young plants for bushier growth.",
+        "lifespan": "Perennial (2\u20133 years, grown as annual)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Antirrhinum_majus_001.jpg/960px-Antirrhinum_majus_001.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Antirrhinum_majus_002.jpg/960px-Antirrhinum_majus_002.jpg",
+                "alt": "Pink snapdragon flower spikes",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Begonia",
+        "scientific_name": "Begonia semperflorens",
+        "slug": "begonia",
+        "family": "begoniaceae",
+        "climates": ["tropical"],
+        "flowering_seasons": ["spring", "summer", "autumn"],
+        "description": "Begonias are popular flowering plants with waxy leaves and clusters of small, colourful blooms that flower continuously.",
+        "interesting_facts": "There are over 2,000 species of begonia. They are named after Michel B\u00e9gon, a 17th-century French governor of Haiti. Some species have edible flowers with a citrus flavour.",
+        "care_instructions": "Plant in partial shade with rich, well-drained soil. Water when soil feels dry. Avoid wetting foliage to prevent powdery mildew. Fertilise monthly during growing season.",
+        "lifespan": "Perennial (3\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Wax_Begonia_(Begonia_semperflorens).jpg/960px-Wax_Begonia_(Begonia_semperflorens).jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Begonia_semperflorens_(cultigen).jpg/960px-Begonia_semperflorens_(cultigen).jpg",
+                "alt": "Pink begonia flower cluster",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Freesia",
+        "scientific_name": "Freesia refracta",
+        "slug": "freesia",
+        "family": "iridaceae",
+        "climates": ["mediterranean"],
+        "flowering_seasons": ["spring"],
+        "description": "Freesias are fragrant, funnel-shaped flowers that grow on delicate arching stems in a rainbow of colours.",
+        "interesting_facts": "Freesias are among the most fragrant flowers and are widely used in perfumery. Their scent is described as honey-like with citrus notes. They symbolise friendship and innocence.",
+        "care_instructions": "Plant corms in full sun with well-drained soil. Water moderately during growth. Support stems with stakes. Allow foliage to die back after flowering. Lift corms in cold climates.",
+        "lifespan": "Perennial (corms last 3\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/FreesiaRefracta1.JPG/960px-FreesiaRefracta1.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Freesia_refracta_001_-_IES_Perdouro.jpg/960px-Freesia_refracta_001_-_IES_Perdouro.jpg",
+                "alt": "Yellow freesia flowers on stem",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Wisteria",
+        "scientific_name": "Wisteria sinensis",
+        "slug": "wisteria",
+        "family": "fabaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["spring"],
+        "description": "Wisteria is a woody climbing vine that produces cascading clusters of fragrant, pea-like flowers in shades of purple, blue, pink, and white.",
+        "interesting_facts": "Wisteria can live for over 100 years. The oldest known wisteria in Japan spans nearly half a hectare. All parts of the plant contain toxic compounds called wisterin and lectin.",
+        "care_instructions": "Plant in full sun with rich, well-drained soil. Provide strong support structure. Prune twice yearly \u2014 in summer and winter. Water deeply during dry spells. May take years to flower.",
+        "lifespan": "Vine (50\u2013100+ years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wisteria_sinensis_8zz.jpg/960px-Wisteria_sinensis_8zz.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Wisteria_sinensis_flowering.jpg/960px-Wisteria_sinensis_flowering.jpg",
+                "alt": "Purple wisteria flower cascade",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Camellia",
+        "scientific_name": "Camellia japonica",
+        "slug": "camellia",
+        "family": "theaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["autumn", "winter"],
+        "description": "Camellias are evergreen shrubs with elegant, rose-like flowers in shades of pink, red, and white that bloom in the cooler months.",
+        "interesting_facts": "Camellia leaves are used to make tea. The flower is the state symbol of Alabama. In Japan, camellias represent divine love and are called tsubaki.",
+        "care_instructions": "Plant in partial shade with acidic, well-drained soil. Mulch with pine bark or leaves. Water deeply during dry spells. Prune after flowering. Protect from harsh afternoon sun.",
+        "lifespan": "Shrub (50\u2013100+ years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Camellia_japonica_002.JPG/960px-Camellia_japonica_002.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Camellia_japonica_001.JPG/960px-Camellia_japonica_001.JPG",
+                "alt": "Red camellia flower in bloom",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Anemone",
+        "scientific_name": "Anemone coronaria",
+        "slug": "anemone",
+        "family": "ranunculaceae",
+        "climates": ["temperate", "mediterranean"],
+        "flowering_seasons": ["spring"],
+        "description": "Anemones are delicate, poppy-like flowers with cup-shaped petals in vivid shades of red, blue, purple, and white surrounding a dark centre.",
+        "interesting_facts": "The name anemone comes from the Greek word for wind, earning them the nickname windflower. In Greek myth, they sprang from the tears of Aphrodite mourning Adonis.",
+        "care_instructions": "Plant tubers in autumn in well-drained soil. Full sun to partial shade. Water regularly during growth. Soak tubers overnight before planting. Mulch for winter protection.",
+        "lifespan": "Perennial (3\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Anemone_coronaria_001.JPG/960px-Anemone_coronaria_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Anemone_coronaria_002.JPG/960px-Anemone_coronaria_002.JPG",
+                "alt": "Red anemone flower close-up",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Delphinium",
+        "scientific_name": "Delphinium elatum",
+        "slug": "delphinium",
+        "family": "ranunculaceae",
+        "climates": ["temperate", "continental"],
+        "flowering_seasons": ["summer"],
+        "description": "Delphiniums are stately perennials with tall spikes of densely packed, spurred flowers in shades of blue, purple, pink, and white.",
+        "interesting_facts": "The name comes from the Latin for dolphin, referring to the shape of the flower buds. All parts of the plant are highly toxic if ingested. Delphinium flowers were used by Native Americans for blue dye.",
+        "care_instructions": "Plant in full sun with rich, alkaline, well-drained soil. Stake tall flower spikes. Water at base regularly. Cut back after first bloom for second flowering. Divide every 2\u20133 years.",
+        "lifespan": "Perennial (3\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Delphinium_elatum_kz01.jpg/960px-Delphinium_elatum_kz01.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Delphinium_elatum_-_panoramio.jpg/960px-Delphinium_elatum_-_panoramio.jpg",
+                "alt": "Blue delphinium flower spikes",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Foxglove",
+        "scientific_name": "Digitalis purpurea",
+        "slug": "foxglove",
+        "family": "plantaginaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["summer"],
+        "description": "Foxgloves are tall, elegant biennials with tubular, bell-shaped flowers that grow along one side of a towering spike.",
+        "interesting_facts": "Foxglove is the source of the heart medication digitalis, used to treat cardiac conditions. The name comes from folklore that foxes wore the flowers as gloves so as not to disturb the hens.",
+        "care_instructions": "Plant in partial shade with rich, acidic, well-drained soil. Water regularly. Remove spent flower spikes to encourage second bloom. Self-seeds readily. All parts are toxic so handle with gloves.",
+        "lifespan": "Biennial (2 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Digitalis_purpurea_001.JPG/960px-Digitalis_purpurea_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Digitalis_purpurea_002.JPG/960px-Digitalis_purpurea_002.JPG",
+                "alt": "Pink foxglove flower spike",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Honeysuckle",
+        "scientific_name": "Lonicera periclymenum",
+        "slug": "honeysuckle",
+        "family": "caprifoliaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["summer"],
+        "description": "Honeysuckle is a twining climbing vine with highly fragrant, trumpet-shaped flowers that open cream and fade to yellow or pink.",
+        "interesting_facts": "Honeysuckle nectar is edible and sweet \u2014 children often suck the flowers for a drop of honey. The scent is strongest in the evening to attract night-flying moths. In folklore, honeysuckle brings dreams of love.",
+        "care_instructions": "Plant in full sun to partial shade with well-drained soil. Provide support for climbing. Water deeply during dry spells. Prune after flowering to control growth. Mulch roots to keep cool.",
+        "lifespan": "Vine (10\u201320 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Lonicera_periclymenum_kz12.jpg/960px-Lonicera_periclymenum_kz12.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Lonicera_periclymenum_kz11.jpg/960px-Lonicera_periclymenum_kz11.jpg",
+                "alt": "Yellow honeysuckle flowers",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Jasmine",
+        "scientific_name": "Jasminum officinale",
+        "slug": "jasmine",
+        "family": "oleaceae",
+        "climates": ["temperate", "mediterranean"],
+        "flowering_seasons": ["summer"],
+        "description": "Jasmine is a fragrant flowering shrub or vine with small, star-shaped white or yellow flowers known for their sweet, intoxicating scent.",
+        "interesting_facts": "Jasmine is known as the queen of the night because its flowers release their strongest fragrance after sunset. It is the national flower of Pakistan, Indonesia, and the Philippines. Jasmine oil is a key ingredient in many perfumes.",
+        "care_instructions": "Plant in full sun to partial shade with well-drained soil. Water regularly during growth. Prune after flowering. Provide support for climbing varieties. Fertilise monthly during growing season.",
+        "lifespan": "Shrub (10\u201320 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Jasminum_officinale_1zz.jpg/960px-Jasminum_officinale_1zz.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Jasminum_officinale_2zz.jpg/960px-Jasminum_officinale_2zz.jpg",
+                "alt": "White jasmine flowers on vine",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Lilac",
+        "scientific_name": "Syringa vulgaris",
+        "slug": "lilac",
+        "family": "oleaceae",
+        "climates": ["temperate", "continental"],
+        "flowering_seasons": ["spring"],
+        "description": "Lilacs are deciduous shrubs that produce large, cone-shaped clusters of highly fragrant, tubular flowers in shades of purple, pink, and white.",
+        "interesting_facts": "Lilacs are associated with the Greek myth of the nymph Syringa. The scent of lilac is said to have calming properties and is used in aromatherapy. A lilac tree can live up to 200 years.",
+        "care_instructions": "Plant in full sun with alkaline, well-drained soil. Water deeply during dry spells. Prune immediately after flowering. Remove suckers to control spread. Fertilise lightly in early spring.",
+        "lifespan": "Shrub (20\u2013200 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Syringa_vulgaris_001.JPG/960px-Syringa_vulgaris_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Syringa_vulgaris_002.JPG/960px-Syringa_vulgaris_002.JPG",
+                "alt": "Purple lilac flower cluster",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Oleander",
+        "scientific_name": "Nerium oleander",
+        "slug": "oleander",
+        "family": "apocynaceae",
+        "climates": ["mediterranean"],
+        "flowering_seasons": ["spring", "summer", "autumn"],
+        "description": "Oleander is a tough evergreen shrub with clusters of showy, five-petalled flowers in pink, red, white, and yellow that bloom throughout the warm months.",
+        "interesting_facts": "Oleander is one of the most poisonous ornamental plants \u2014 all parts contain cardiac glycosides. Despite its toxicity, it is widely planted along highways for its drought tolerance. It is the national flower of Hiroshima.",
+        "care_instructions": "Plant in full sun with well-drained soil. Extremely drought-tolerant once established. Water sparingly. Prune in autumn to shape. Protect from frost in colder climates. Wear gloves when handling.",
+        "lifespan": "Shrub (10\u201330 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nerium_oleander_pink.jpg/960px-Nerium_oleander_pink.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nerium_oleander_flowers_leaves.jpg/960px-Nerium_oleander_flowers_leaves.jpg",
+                "alt": "Pink oleander flowers in cluster",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Pansy",
+        "scientific_name": "Viola \u00d7 wittrockiana",
+        "slug": "pansy",
+        "family": "violaceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["spring", "autumn"],
+        "description": "Pansies are cheerful, low-growing plants with distinctive face-like markings on their five-petalled flowers in a vast array of colours.",
+        "interesting_facts": "The name pansy comes from the French pensee meaning thought. In Shakespeare's A Midsummer Night's Dream, pansy juice was used as a love potion. They are edible flowers with a mild, sweet flavour.",
+        "care_instructions": "Plant in full sun to partial shade with rich, well-drained soil. Water regularly. Deadhead spent blooms to encourage continuous flowering. Fertilise every two weeks. Mulch to keep roots cool.",
+        "lifespan": "Biennial (2 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Viola_tricolor_001.JPG/960px-Viola_tricolor_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Viola_tricolor_002.JPG/960px-Viola_tricolor_002.JPG",
+                "alt": "Mixed colourful pansy flowers",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Salvia",
+        "scientific_name": "Salvia splendens",
+        "slug": "salvia",
+        "family": "lamiaceae",
+        "climates": ["tropical", "temperate"],
+        "flowering_seasons": ["summer", "autumn"],
+        "description": "Salvias are striking perennials with tall spikes of vibrant red, purple, or blue tubular flowers that are magnets for pollinators.",
+        "interesting_facts": "The name comes from the Latin salvare meaning to heal \u2014 many salvias have medicinal properties. Sage (Salvia officinalis) is a culinary relative. Salvia flowers produce nectar that attracts hummingbirds and butterflies.",
+        "care_instructions": "Plant in full sun with well-drained soil. Water regularly but avoid overhead watering. Deadhead spent spikes. Cut back hard in early spring. Divide every 3\u20134 years. Tolerates heat and humidity well.",
+        "lifespan": "Perennial (3\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Scarlet_sage.jpg/960px-Scarlet_sage.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Scarlet_sage_2.jpg/960px-Scarlet_sage_2.jpg",
+                "alt": "Red salvia flower spikes",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Snowdrop",
+        "scientific_name": "Galanthus nivalis",
+        "slug": "snowdrop",
+        "family": "amaryllidaceae",
+        "climates": ["temperate", "continental"],
+        "flowering_seasons": ["winter"],
+        "description": "Snowdrops are delicate, early-blooming bulbs with drooping white bell-shaped flowers that often emerge through snow.",
+        "interesting_facts": "Snowdrops are one of the first flowers to bloom in late winter, symbolising hope and the promise of spring. The flower contains galantamine, used to treat Alzheimer's disease. They naturalise readily in lawns.",
+        "care_instructions": "Plant bulbs in autumn, 2\u20133 inches deep in well-drained soil. Partial shade preferred. Allow foliage to die back naturally after flowering. Divide clumps after flowering every 3\u20135 years.",
+        "lifespan": "Perennial (indefinite with naturalisation)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Galanthus_nivalis_001.JPG/960px-Galanthus_nivalis_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Galanthus_nivalis_002.JPG/960px-Galanthus_nivalis_002.JPG",
+                "alt": "White snowdrop flower close-up",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Sweet Pea",
+        "scientific_name": "Lathyrus odoratus",
+        "slug": "sweet-pea",
+        "family": "fabaceae",
+        "climates": ["temperate", "mediterranean"],
+        "flowering_seasons": ["spring", "summer"],
+        "description": "Sweet peas are climbing annuals with highly fragrant, butterfly-shaped flowers in soft pastel shades of pink, purple, blue, and white.",
+        "interesting_facts": "Sweet peas are one of the most fragrant garden flowers. Their scent is best in the morning. The flowers are edible but the seeds and pods are toxic if eaten in quantity. They are a symbol of blissful pleasure.",
+        "care_instructions": "Sow seeds in early spring in full sun with rich, well-drained soil. Provide supports for climbing. Water regularly at soil level. Deadhead spent blooms for continuous flowering. Pick flowers frequently to encourage more blooms.",
+        "lifespan": "Annual (6\u20139 months)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lathyrus_odoratus_kz01.jpg/960px-Lathyrus_odoratus_kz01.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Lathyrus_odoratus_kz01.jpg/960px-Lathyrus_odoratus_kz01.jpg",
+                "alt": "Pink sweet pea flowers on vine",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Thistle",
+        "scientific_name": "Cirsium vulgare",
+        "slug": "thistle",
+        "family": "asteraceae",
+        "climates": ["temperate", "continental"],
+        "flowering_seasons": ["summer"],
+        "description": "Thistles are robust biennials with spiny leaves and spherical purple or pink flower heads that are beloved by bees and butterflies.",
+        "interesting_facts": "The thistle is the national emblem of Scotland. Despite their prickly reputation, thistle flowers produce abundant nectar. The fluffy seed heads (pappus) can disperse seeds over long distances by wind.",
+        "care_instructions": "Thrives in poor, well-drained soil in full sun. Tolerates drought once established. Self-seeds freely. Remove flower heads before seed set to control spread. Minimal care required.",
+        "lifespan": "Biennial (2 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cirsium_vulgare_kz01.jpg/960px-Cirsium_vulgare_kz01.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Cirsium_vulgare_kz02.jpg/960px-Cirsium_vulgare_kz02.jpg",
+                "alt": "Purple thistle flower head",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Verbena",
+        "scientific_name": "Verbena bonariensis",
+        "slug": "verbena",
+        "family": "verbenaceae",
+        "climates": ["temperate", "mediterranean"],
+        "flowering_seasons": ["summer", "autumn"],
+        "description": "Verbena is a tall, airy perennial with clusters of small purple flowers held on slender, branching stems above sparse foliage.",
+        "interesting_facts": "Verbena has been used in herbal medicine for centuries. The ancient Romans used it in ceremonies and it was called the holy herb. It is extremely attractive to butterflies and pollinators.",
+        "care_instructions": "Plant in full sun with well-drained soil. Water moderately once established. Cut back in late winter to promote vigorous growth. Self-seeds readily. Tolerates heat, humidity, and drought well.",
+        "lifespan": "Perennial (3\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Verbena_bonariensis_01.jpg/960px-Verbena_bonariensis_01.jpg",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Verbena_bonariensis_kz01.jpg/960px-Verbena_bonariensis_kz01.jpg",
+                "alt": "Purple verbena flowers on tall stems",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Yarrow",
+        "scientific_name": "Achillea millefolium",
+        "slug": "yarrow",
+        "family": "asteraceae",
+        "climates": ["temperate", "continental"],
+        "flowering_seasons": ["summer"],
+        "description": "Yarrow is a hardy perennial with flat-topped clusters of tiny flowers in white, pink, yellow, or red above feathery, aromatic foliage.",
+        "interesting_facts": "Yarrow is named after the Greek hero Achilles, who used it to treat wounds on the battlefield. Its feathery leaves give it the species name millefolium meaning thousand leaves. It is a valuable medicinal herb.",
+        "care_instructions": "Plant in full sun with well-drained soil. Extremely drought-tolerant. Cut back after flowering for a second bloom. Divide clumps every 2\u20133 years. Deadhead to prevent excessive self-seeding.",
+        "lifespan": "Perennial (3\u20135 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Achillea_millefolium_001.JPG/960px-Achillea_millefolium_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Achillea_millefolium_002.JPG/960px-Achillea_millefolium_002.JPG",
+                "alt": "Pink yarrow flower cluster",
+                "attribution": "Wikimedia Commons"
+            }
+        ]
+    },
+    {
+        "common_name": "Bleeding Heart",
+        "scientific_name": "Lamprocapnos spectabilis",
+        "slug": "bleeding-heart",
+        "family": "papaveraceae",
+        "climates": ["temperate"],
+        "flowering_seasons": ["spring"],
+        "description": "Bleeding hearts are shade-loving perennials with arching stems of distinctive heart-shaped pink flowers that appear to drip with a white teardrop.",
+        "interesting_facts": "Each flower resembles a heart with a droplet, giving the plant its romantic name. In Victorian flower language, bleeding hearts symbolise passionate love. Despite their delicate appearance, they are extremely cold-hardy.",
+        "care_instructions": "Plant in partial to full shade with rich, moist, well-drained soil. Water regularly. Mulch to keep roots cool and moist. Cut back yellowing foliage after flowering. Divide in early spring every 3\u20135 years.",
+        "lifespan": "Perennial (5\u201310 years)",
+        "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lamprocapnos_spectabilis_001.JPG/960px-Lamprocapnos_spectabilis_001.JPG",
+        "images": [
+            {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Lamprocapnos_spectabilis_002.JPG/960px-Lamprocapnos_spectabilis_002.JPG",
+                "alt": "Pink bleeding heart flowers on arching stem",
                 "attribution": "Wikimedia Commons"
             }
         ]

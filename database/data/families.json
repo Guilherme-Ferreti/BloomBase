@@ -19,5 +19,12 @@
     {"name": "Ericaceae", "slug": "ericaceae", "description": "The heath family, including azaleas."},
     {"name": "Magnoliaceae", "slug": "magnoliaceae", "description": "The magnolia family."},
     {"name": "Apocynaceae", "slug": "apocynaceae", "description": "The dogbane family, including frangipani."},
-    {"name": "Araceae", "slug": "araceae", "description": "The arum family, including peace lilies."}
+    {"name": "Araceae", "slug": "araceae", "description": "The arum family, including peace lilies."},
+    {"name": "Plantaginaceae", "slug": "plantaginaceae", "description": "The plantain family, including snapdragons and foxgloves."},
+    {"name": "Begoniaceae", "slug": "begoniaceae", "description": "The begonia family."},
+    {"name": "Fabaceae", "slug": "fabaceae", "description": "The legume, pea, or bean family."},
+    {"name": "Theaceae", "slug": "theaceae", "description": "The tea family, including camellias."},
+    {"name": "Caprifoliaceae", "slug": "caprifoliaceae", "description": "The honeysuckle family."},
+    {"name": "Oleaceae", "slug": "oleaceae", "description": "The olive family, including jasmine and lilac."},
+    {"name": "Verbenaceae", "slug": "verbenaceae", "description": "The verbena or vervain family."}
 ]
