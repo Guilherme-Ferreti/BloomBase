@@ -56,8 +56,8 @@ final class SearchFlowers extends Component
             ->when($this->familyId, fn ($q) => $q->where('family_id', $this->familyId))
             ->when($this->climateId, fn ($q) => $q->whereRelation('climates', 'id', $this->climateId))
             ->when($this->seasonId, fn ($q) => $q->whereRelation('floweringSeasons', 'id', $this->seasonId))
-            ->when($this->search, fn ($q) => $q->where(fn ($q) => $q->where('common_name', 'like', '%' . $this->search . '%')
-                ->orWhere('scientific_name', 'like', '%' . $this->search . '%')
+            ->when($this->search, fn ($q) => $q->where(fn ($q) => $q->whereLike('common_name', '%' . $this->search . '%')
+                ->orWhereLike('scientific_name', '%' . $this->search . '%')
             ))
             ->orderBy('common_name')
             ->simplePaginate(perPage: 12, page: $this->page);
